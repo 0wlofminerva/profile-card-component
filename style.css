@@ -87,4 +87,29 @@ body {
   margin-top: 0;
   margin-bottom: 2rem;
 }
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card-footer-social {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: .1rem;
+}
+
+.card-footer-social h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card-footer-social p {
+  letter-spacing: 1px;
+  color: var(--dark-grayish-blue);
+}
 /*# sourceMappingURL=style.css.map */

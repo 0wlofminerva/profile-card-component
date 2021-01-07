@@ -67,6 +67,29 @@ body {
             margin-top: 0;
             margin-bottom: 2rem;
         }
+        
     }  
+
+    &-footer {
+        display: flex;
+        justify-content: space-around;
+
+        &-social {
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            line-height: .1rem;
+
+            h3 {
+                font-size: 2rem;
+                font-weight: 700;
+            }
+
+            p {
+                letter-spacing: 1px;
+                color: var(--dark-grayish-blue);
+            }
+        }
+    }
     
 }
