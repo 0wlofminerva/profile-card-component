@@ -29,7 +29,7 @@ body {
     width: 325px;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.7);
+    box-shadow: 10px 50px 80px rgba(0, 0, 0, 0.2);
 
     &-header{
         width: 100%;
@@ -40,12 +40,33 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        border-bottom: 1px solid rgba(51, 55, 69, 0.15);
 
         &-img {
             border: 5px solid white;
             border-radius: 50%;margin-top: -48px;
             margin-top: calc(-48px - 5px);
+            background-color: white;
         }
-    }
+
+        &-title {
+            margin-top: 2rem;
+            font-size: 1.8rem;
+            font-weight: 700;
+
+            span {
+                color: var(--dark-grayish-blue);
+                font-weight: 400;
+            }
+        }
+
+        &-text {
+            color: var(--dark-grayish-blue);
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 2rem;
+        }
+    }  
     
 }
